@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "Live_chat_app",
+  "builds": [{ "src": "node server.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/node server.js" }]
+}
